@@ -1,0 +1,27 @@
+table {
+  text-align: left;
+}
+tr {
+  height: 30px;
+}
+td {
+  width: 120px;
+}
+th {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+tr.oddcolor {
+  /* Color palette adapted from: http://www.colourlovers.com/palette/129597/Pink_Poodle */
+  background-color: rgb(124, 93, 74);
+  color: rgb(253, 250, 129);
+}
+tr.evencolor {
+  /* Color palette adapted from: http://www.colourlovers.com/palette/129597/Pink_Poodle */
+  background-color: rgb(255, 250, 129);
+}
+td:hover {
+  /* Color palette adapted from: http://www.colourlovers.com/palette/129597/Pink_Poodle */
+  background-color: rgb(253, 110, 138);
+  color: rgb(58, 44, 34);
+}
